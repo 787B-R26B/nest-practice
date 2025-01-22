@@ -7,5 +7,8 @@ export class AppService {
   }
   getGoodBye(): string {
       return 'Good Bye!';
+  }
+  getFUCKYOU(): string {
+      return 'F**K You!!';
     }
 }

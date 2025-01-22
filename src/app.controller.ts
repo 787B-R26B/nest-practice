@@ -12,5 +12,9 @@ export class AppController {
   @Get('goodbye')
   getGoodBye(): string{
     return this.appService.getGoodBye();
+  }
+  @Get('Fuck')
+  getFUCKYOU(): string{
+    return this.appService.getFUCKYOU();
     }
 }
